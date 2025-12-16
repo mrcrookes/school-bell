@@ -9,13 +9,17 @@ and then create /etc/asound.conf with following to set defaults. Replace "1" wit
 > #### defaults.pcm.card 1 <br />
 > #### defaults.ctl.card 1 <br />
 
-
 ## Setup crontab
 Open crontab <br />
 > #### crontab -e  <br />
 Add this line at the bottom (make sure there is a space between the * symbols) to run the program every minute  <br />
 > #### * * * * * /home/pi/schoolbell.py  <br />
 
+## Setup crontab for Christmas tunes
+This will start script from 08:20-08:48, 10:31-10:43, 13:16-13:40
+20 08 * * * /home/pi/random_playlist.py -t 28 /home/pi/winter/pl.xspf  <br />
+31 10 * * * /home/pi/random_playlist.py -t 12 /home/pi/winter/pl.xspf  <br />
+16 13 * * * /home/pi/random_playlist.py -t 24 /home/pi/winter/pl.xspf  <br />
 
 ## Credit for sound clips:
 nextperiod.wav - https://freesound.org/people/Jackalgirl/sounds/683750/ <br />
@@ -25,6 +29,7 @@ longchime.wav - https://freesound.org/people/mpaol2023/sounds/370182/ <br />
 
 sqbell - Squarepusher - Tommib <br />
 s1bell - Prince Jazzbo - School <br />
-ambell - Amadou & Mariam - La réalité <br />
+
+
 
 
