@@ -19,7 +19,7 @@ Add this line at the bottom (make sure there is a space between the * symbols) t
 > #### * * * * * /home/pi/schoolbell.py  <br />
 
 ## Setup crontab for Christmas tunes
-This will start script from 08:20-08:48, 10:31-10:43, 13:16-13:40
+This will start script from 08:20-08:48, 10:31-10:43, 13:16-13:40 <br />
 20 08 * * * /home/pi/random_playlist.py -t 28 /home/pi/winter/pl.xspf  <br />
 31 10 * * * /home/pi/random_playlist.py -t 12 /home/pi/winter/pl.xspf  <br />
 16 13 * * * /home/pi/random_playlist.py -t 24 /home/pi/winter/pl.xspf  <br />
