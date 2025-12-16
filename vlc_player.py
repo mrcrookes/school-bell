@@ -28,7 +28,7 @@ class VLC:
 
     def play(self):
         # setting volume
-        self.audio_set_volume(75)
+        self.list_player.get_media_player().audio_set_volume(50)
         self.list_player.play()
 
     def next(self):
