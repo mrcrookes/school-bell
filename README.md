@@ -20,18 +20,19 @@ Add this line at the bottom (make sure there is a space between the * symbols) t
 
 ## Setup crontab for Christmas tunes
 This will start script from 08:20 - 08:48, 10:31 - 10:43, 13:16 - 13:40 <br />
-20 08 * * * /home/pi/random_playlist.py -t 28 /home/pi/winter/pl.xspf  <br />
-31 10 * * * /home/pi/random_playlist.py -t 12 /home/pi/winter/pl.xspf  <br />
-16 13 * * * /home/pi/random_playlist.py -t 24 /home/pi/winter/pl.xspf  <br />
+> 20 08 * * * /home/pi/random_playlist.py -t 28 /home/pi/winter/pl.xspf  <br />
+> 31 10 * * * /home/pi/random_playlist.py -t 12 /home/pi/winter/pl.xspf  <br />
+> 16 13 * * * /home/pi/random_playlist.py -t 24 /home/pi/winter/pl.xspf  <br />
 
 ## Credit for sound clips:
 nextperiod.wav - https://freesound.org/people/Jackalgirl/sounds/683750/ <br />
 warn.wav - https://freesound.org/people/Benboncan/sounds/93646/ <br />
 quickchime.wav - https://freesound.org/people/kwahmah_02/sounds/245956/ <br />
 longchime.wav - https://freesound.org/people/mpaol2023/sounds/370182/ <br />
-
+## Credit for song clips:
 s1bell - Prince Jazzbo - School <br />
-
+divinebell - The Divine Comedy - National Express <br />
+jimmybell - Jimmy Cliff - You Can Get It If You Really Want <br />
 
 
 
