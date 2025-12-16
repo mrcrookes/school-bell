@@ -2,6 +2,9 @@
 ### Simple python script to play sounds over the school day on a Raspberry Pi
 Credit to https://gist.github.com/BillSimpson/d7a1a531995c8b63492bb47ef8872618 for the orginal idea, code and instructions
 
+### And Two simple python scripts to play Christmas playlist over breaks on a Raspberry Pi
+Credit to https://gist.github.com/gitblight1/602f0a73672822c1ef6b056ff35ea293 for the orginal idea, code and instructions
+
 ## Setup soundcard
 May need to do following step to set correct default system soundcard. You can find your desired card with:
 > #### cat /proc/asound/cards <br />
