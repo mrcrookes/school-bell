@@ -4,9 +4,11 @@
 # Credit to https://gist.github.com/BillSimpson/d7a1a531995c8b63492bb47ef8872618
 
 belltones = {
-    'warn' : 'warn.wav',
-    'start' : 'sqbell.wav',
-    'back' : 's1bell.wav'
+    'warn' : 'quick_chime.wav',
+    'start' : 'slow_chime.wav',
+    'back' : 's1bell.wav',
+    'end' : 'divinebell.wav',
+    'bus' : 'jimmy1.wav'
 }
 
 bellschedule = {   
@@ -15,7 +17,7 @@ bellschedule = {
     '09:39' : 'warn',
     '09:40' : 'start',
     '10:29' : 'warn',
-    '10:30' : 'start',
+    '10:30' : 'end',
     '10:44' : 'warn',
     '10:45' : 'back',    
     '11:34' : 'warn',
@@ -23,14 +25,24 @@ bellschedule = {
     '12:24' : 'warn',
     '12:25' : 'start',
     '13:14' : 'warn',
-    '13:15' : 'start',
+    '13:15' : 'end',
     '14:09' : 'warn',
     '14:10' : 'back',
     '14:59' : 'warn',
     '15:00' : 'start',
     '15:49' : 'warn',
-    '15:50' : 'start',
+    '15:50' : 'end',
+    '16:05' : 'bus',
 }
+
+# # dictionary for testing
+# bellschedule = {   
+#     '17:41' : 'start',
+#     '17:42' : 'start',   
+#     '17:43' : 'start',
+#     '17:44' : 'start',
+#     '17:45' : 'start'
+# }
 
 holidays = {
     '2020-09-07',
